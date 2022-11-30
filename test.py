@@ -6,6 +6,6 @@ def text_to_bin(text):
     return ' '.join(format(x, '08b') for x in bytearray(text, 'utf-8'))
 
 
-a = 'ПИПИСКА АНТОНА'
+a = 'ТЕСТ'
 print(text_bin(a), end='\n\n')
 print(text_to_bin(a))
